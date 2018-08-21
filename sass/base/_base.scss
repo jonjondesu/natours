@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before {
+  margin: 0px; /* These two lines will ensure that the browser */
+  padding: 0px; /* does not add any margin or padding to our elements. */
+
+  box-sizing: inherit; /**************************/
+}                     
+
+html {
+  // This defines what 1rem is, therefore not considered typography
+  font-size: 62.5%; /* Root values are set in the html tag. 62.5% = 10/16, 16px being the default root value. */
+}
+
+body {
+  box-sizing: border-box; /******************************/
+}
