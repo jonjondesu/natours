@@ -16,6 +16,10 @@ html {
   }
 
   @include respond(tab-port) {
+    font-size: 53%; // 1 rem = 8px; 8/16 = 50%
+  }
+
+  @include respond(tab-port) {
     font-size: 50%; // 1 rem = 8px; 8/16 = 50%
   }
 
